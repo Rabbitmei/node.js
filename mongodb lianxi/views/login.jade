@@ -1,0 +1,19 @@
+extends layout.jade
+block body
+  form(action="/login",method="POST")
+    fieldset
+      legend Login in
+      p
+        lable Email
+        input(name="user[email]",type="text",value=signupEmail)
+      p
+        lable Password
+        input(name="user[password]",type="password")
+      p
+        button Submit
+      p
+        a(href='/') GO back
+  if (signupEmail)
+      p signupEmail ok!
+
+  

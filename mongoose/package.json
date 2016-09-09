@@ -1,0 +1,14 @@
+{
+	"version": "0.0.9"
+	,"name": "user-mongoose-example"
+	,"dependencies":{
+		"express":"2.5.2"
+		,"mongodb":"0.9.9"
+		,"jade":"1.11.0"
+	},
+	"description": {
+  	"express":"2.5.8",
+  	"mongodb":"0.9.9",
+  	"jade":"0.20.3"
+  }
+}
